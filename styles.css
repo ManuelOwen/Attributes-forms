@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tittle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form
+{
+color: aqua;
+}
+
+fieldset {
+  background-color: aquamarine;
+  border: 2px solid #6ac067;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="color"],
+input[type="search"],
+input[type="range"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccccccdf;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #3b07e6;
+  color: rgba(255, 255, 255, 0.839);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049a9;
+}
+
+

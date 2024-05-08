@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h2 class="tittle">Forms</h2>
+    <form action="">
+      <fieldset>
+        <caption class="form">
+            FORMS AND ATTRIBUTES
+        </caption>
+        <br />
+        <br />
+        <legend>INPUT TYPES</legend>
+        <label for="text">Username: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder=" your name here"
+          pattern="[A-Za-z]{4,}"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="email"> Email :</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder=" email Address"
+          required
+        />
+        <br />
+        <br />
+        <label for="number"> phone number:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          min="0"
+          max="72"
+          step="4"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="password">Enter Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="4"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="date">Enter date:</label>
+        <input type="date" id="date" name="date" required />
+        <br />
+        <br />
+        <label for="color">Color Input:</label>
+        <input type="color" id="color" name="color" required />
+        <br />
+        <br />
+        <label for="search">Search:</label>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search here"
+        />
+        <br />
+        <br />
+        <label for="range">Rate us:</label>
+        <input
+          type="range"
+          id="range"
+          name="range-input"
+          min="0"
+          max="60"
+          step="3"
+        />
+        <br />
+        <br />
+        <label for="textarea">input Your Message</label>
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="40"
+          rows="15"
+          placeholder="Write your Message"
+        ></textarea>
+        <br />
+        <br />
+
+        <label for="radio">Option 2:</label>
+        <input type="radio" id="radio1" name="radio" value="radio1" required />
+
+        <label for="radio1"> Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="radio2" />
+        <br />
+        <br />
+
+        <label for="select">Select Your Choice:</label>
+        <select id="select" name="select" required>
+          <option value="">Select an option</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
